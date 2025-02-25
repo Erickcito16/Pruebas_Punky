@@ -2,24 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FX_Hologram_Sign_Mat
-  m_Shader: {fileID: 4800000, guid: 8551958ff96e05f41a9f83218ea6da93, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_Shader: {fileID: 4800000, guid: 2b5804ffd3081d344bed894a653e3014, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -33,10 +29,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Colour_Multiply:
-        m_Texture: {fileID: 2800000, guid: ffb54e2f1915d9e478300bdd2cef8fba, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -53,10 +45,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Emissive_01:
-        m_Texture: {fileID: 2800000, guid: 31993c12d00def94f877434602256422, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HoloLines:
@@ -87,20 +75,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _PolygonSciFiCyberCity_Texture:
-        m_Texture: {fileID: 2800000, guid: 18f698a95ab215742a622c214015079e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: d44fa91dd607b2243aac51d78b7922dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopTexture1:
         m_Texture: {fileID: 2800000, guid: e1a9333e10e8c594b89b3dfdbffd4ad9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _skin_Mask:
-        m_Texture: {fileID: 2800000, guid: 99bf8163a73647c4b9b93c57f58defca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -111,7 +91,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.5
     - _BumpScale: 1
@@ -119,7 +98,6 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Emission_Power: 1.68
-    - _Emissive: 1
     - _FallOff: 0
     - _Float0: 45.1
     - _GenericCalue: 0
@@ -135,8 +113,6 @@ Material:
     - _Parallax: 0.02
     - _Scroll_Speed: 0.59
     - _SmoothnessTextureChannel: 0
-    - _Spec_Metallic: 0
-    - _Spec_Smoothness: 0.2
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Tiling: 0
@@ -153,9 +129,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0, b: 0, a: 0}
     - _Color1: {r: 0.6965517, g: 1, b: 0, a: 0}
-    - _Colour_Skin: {r: 0.26038077, g: 0.22743526, b: 0.31764707, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Neon_Colour_01: {r: 0.8455882, g: 0.47339222, b: 0.41035897, a: 0}
     - _Neon_Colour_02: {r: 0.16025089, g: 0.2646194, b: 0.2794118, a: 0}
     - _Neon_Colour_2: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []

@@ -24587,7 +24587,7 @@ MonoBehaviour:
   - {fileID: 6360950715692914805}
   - {fileID: 4087789117115814197}
   hitEffect: {fileID: 6498775800028846444}
-  weaponAnimation: {fileID: 7400000, guid: dbe25bf6415f3cd4693cc6592b5eb42c, type: 2}
+  weaponName: rifle
   tracerEffect: {fileID: 5076097554975020580, guid: a82dc8924224c694cbf46cab4845c2ce, type: 3}
   raycastOrigin: {fileID: 1150348724498823770}
   raycastDestination: {fileID: 0}
@@ -24602,7 +24602,7 @@ AudioSource:
   m_GameObject: {fileID: 7732700389484025209}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8075714731675684017, guid: e2c300a238d68ba4584f50076fe4bd7d, type: 2}
   m_audioClip: {fileID: 8300000, guid: 172a1727e3521ea4a8d134a2c0a9d3bb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

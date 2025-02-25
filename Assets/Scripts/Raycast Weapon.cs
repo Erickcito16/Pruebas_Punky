@@ -19,7 +19,7 @@ public class RaycastWeapon : MonoBehaviour
 
     public ParticleSystem[] muzzleFlash;
     public ParticleSystem hitEffect;
-    public AnimationClip weaponAnimation;
+    public string weaponName;
 
 
     public TrailRenderer tracerEffect;
